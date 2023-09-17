@@ -46,3 +46,5 @@ The task was to identify all the failing DUTs and report them.
 - [**RETURNED_EXTRA_COIN**] : Returned extra coin 10
 - [**RETURNED_COIN_WHEN_EMPTY**] : Returned coin 25 when it was empty
 - [**RETURNED_EXTRA_COIN**] : Returned extra coin 25
+
+The DUT is omitted in this repo as it belongs to the professor. But you can find UVM testbench, simulation log, and waveforms in this repo.
