@@ -1,0 +1,840 @@
+                         Chronologic VCS (TM)
+            Version R-2020.12 -- Sat Oct  1 19:47:55 2022
+               Copyright (c) 1991-2020 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '/home/morris/uvm-1.2/src/uvm.sv'
+Parsing included file '/home/morris/uvm-1.2/src/uvm_pkg.sv'.
+Parsing included file '/home/morris/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/macros/uvm_version_defines.svh'.
+Back to file '/home/morris/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/macros/uvm_global_defines.svh'.
+Back to file '/home/morris/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/macros/uvm_message_defines.svh'.
+Back to file '/home/morris/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/macros/uvm_phase_defines.svh'.
+Back to file '/home/morris/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/macros/uvm_object_defines.svh'.
+Back to file '/home/morris/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/macros/uvm_printer_defines.svh'.
+Back to file '/home/morris/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/macros/uvm_tlm_defines.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/tlm1/uvm_tlm_imps.svh'.
+Back to file '/home/morris/uvm-1.2/src/macros/uvm_tlm_defines.svh'.
+Back to file '/home/morris/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/macros/uvm_sequence_defines.svh'.
+Back to file '/home/morris/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/macros/uvm_callback_defines.svh'.
+Back to file '/home/morris/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/macros/uvm_reg_defines.svh'.
+Back to file '/home/morris/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/macros/uvm_deprecated_defines.svh'.
+Back to file '/home/morris/uvm-1.2/src/uvm_macros.svh'.
+Back to file '/home/morris/uvm-1.2/src/uvm_pkg.sv'.
+Parsing included file '/home/morris/uvm-1.2/src/dpi/uvm_dpi.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/dpi/uvm_hdl.svh'.
+Back to file '/home/morris/uvm-1.2/src/dpi/uvm_dpi.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/dpi/uvm_svcmd_dpi.svh'.
+Back to file '/home/morris/uvm-1.2/src/dpi/uvm_dpi.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/dpi/uvm_regex.svh'.
+Back to file '/home/morris/uvm-1.2/src/dpi/uvm_dpi.svh'.
+Back to file '/home/morris/uvm-1.2/src/uvm_pkg.sv'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_coreservice.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_version.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_object_globals.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_misc.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_object.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_pool.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_queue.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_factory.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_registry.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_spell_chkr.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_resource.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_resource_specializations.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_resource_db.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_config_db.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_printer.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_comparer.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_packer.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_links.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_tr_database.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_tr_stream.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_recorder.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_event_callback.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_event.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_barrier.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_callback.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_report_message.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_report_catcher.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_report_server.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_report_handler.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_report_object.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_transaction.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_phase.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_domain.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_bottomup_phase.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_topdown_phase.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_task_phase.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_common_phases.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_runtime_phases.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_component.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_root.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_component.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_objection.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_heartbeat.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_globals.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_cmdline_processor.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_traversal.svh'.
+Back to file '/home/morris/uvm-1.2/src/base/uvm_base.svh'.
+Back to file '/home/morris/uvm-1.2/src/uvm_pkg.sv'.
+Parsing included file '/home/morris/uvm-1.2/src/dap/uvm_dap.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/dap/uvm_set_get_dap_base.svh'.
+Back to file '/home/morris/uvm-1.2/src/dap/uvm_dap.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/dap/uvm_simple_lock_dap.svh'.
+Back to file '/home/morris/uvm-1.2/src/dap/uvm_dap.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/dap/uvm_get_to_lock_dap.svh'.
+Back to file '/home/morris/uvm-1.2/src/dap/uvm_dap.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/dap/uvm_set_before_get_dap.svh'.
+Back to file '/home/morris/uvm-1.2/src/dap/uvm_dap.svh'.
+Back to file '/home/morris/uvm-1.2/src/uvm_pkg.sv'.
+Parsing included file '/home/morris/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/tlm1/uvm_tlm_ifs.svh'.
+Back to file '/home/morris/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/tlm1/uvm_sqr_ifs.svh'.
+Back to file '/home/morris/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/base/uvm_port_base.svh'.
+Back to file '/home/morris/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/tlm1/uvm_imps.svh'.
+Back to file '/home/morris/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/tlm1/uvm_ports.svh'.
+Back to file '/home/morris/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/tlm1/uvm_exports.svh'.
+Back to file '/home/morris/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/tlm1/uvm_analysis_port.svh'.
+Back to file '/home/morris/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/tlm1/uvm_tlm_fifo_base.svh'.
+Back to file '/home/morris/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/tlm1/uvm_tlm_fifos.svh'.
+Back to file '/home/morris/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/tlm1/uvm_tlm_req_rsp.svh'.
+Back to file '/home/morris/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/tlm1/uvm_sqr_connections.svh'.
+Back to file '/home/morris/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Back to file '/home/morris/uvm-1.2/src/uvm_pkg.sv'.
+Parsing included file '/home/morris/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/comps/uvm_pair.svh'.
+Back to file '/home/morris/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/comps/uvm_policies.svh'.
+Back to file '/home/morris/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/comps/uvm_in_order_comparator.svh'.
+Back to file '/home/morris/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/comps/uvm_algorithmic_comparator.svh'.
+Back to file '/home/morris/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/comps/uvm_random_stimulus.svh'.
+Back to file '/home/morris/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/comps/uvm_subscriber.svh'.
+Back to file '/home/morris/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/comps/uvm_monitor.svh'.
+Back to file '/home/morris/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/comps/uvm_driver.svh'.
+Back to file '/home/morris/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/comps/uvm_push_driver.svh'.
+Back to file '/home/morris/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/comps/uvm_scoreboard.svh'.
+Back to file '/home/morris/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/comps/uvm_agent.svh'.
+Back to file '/home/morris/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/comps/uvm_env.svh'.
+Back to file '/home/morris/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/comps/uvm_test.svh'.
+Back to file '/home/morris/uvm-1.2/src/comps/uvm_comps.svh'.
+Back to file '/home/morris/uvm-1.2/src/uvm_pkg.sv'.
+Parsing included file '/home/morris/uvm-1.2/src/seq/uvm_seq.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/seq/uvm_sequence_item.svh'.
+Back to file '/home/morris/uvm-1.2/src/seq/uvm_seq.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/seq/uvm_sequencer_base.svh'.
+Back to file '/home/morris/uvm-1.2/src/seq/uvm_seq.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/seq/uvm_sequencer_analysis_fifo.svh'.
+Back to file '/home/morris/uvm-1.2/src/seq/uvm_seq.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/seq/uvm_sequencer_param_base.svh'.
+Back to file '/home/morris/uvm-1.2/src/seq/uvm_seq.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/seq/uvm_sequencer.svh'.
+Back to file '/home/morris/uvm-1.2/src/seq/uvm_seq.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/seq/uvm_push_sequencer.svh'.
+Back to file '/home/morris/uvm-1.2/src/seq/uvm_seq.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/seq/uvm_sequence_base.svh'.
+Back to file '/home/morris/uvm-1.2/src/seq/uvm_seq.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/seq/uvm_sequence.svh'.
+Back to file '/home/morris/uvm-1.2/src/seq/uvm_seq.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/seq/uvm_sequence_library.svh'.
+Back to file '/home/morris/uvm-1.2/src/seq/uvm_seq.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/seq/uvm_sequence_builtin.svh'.
+Back to file '/home/morris/uvm-1.2/src/seq/uvm_seq.svh'.
+Back to file '/home/morris/uvm-1.2/src/uvm_pkg.sv'.
+Parsing included file '/home/morris/uvm-1.2/src/tlm2/uvm_tlm2.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/tlm2/uvm_tlm2_defines.svh'.
+Back to file '/home/morris/uvm-1.2/src/tlm2/uvm_tlm2.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/tlm2/uvm_tlm2_time.svh'.
+Back to file '/home/morris/uvm-1.2/src/tlm2/uvm_tlm2.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/tlm2/uvm_tlm2_generic_payload.svh'.
+Back to file '/home/morris/uvm-1.2/src/tlm2/uvm_tlm2.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/tlm2/uvm_tlm2_ifs.svh'.
+Back to file '/home/morris/uvm-1.2/src/tlm2/uvm_tlm2.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/tlm2/uvm_tlm2_imps.svh'.
+Back to file '/home/morris/uvm-1.2/src/tlm2/uvm_tlm2.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/tlm2/uvm_tlm2_ports.svh'.
+Back to file '/home/morris/uvm-1.2/src/tlm2/uvm_tlm2.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/tlm2/uvm_tlm2_exports.svh'.
+Back to file '/home/morris/uvm-1.2/src/tlm2/uvm_tlm2.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/tlm2/uvm_tlm2_sockets_base.svh'.
+Back to file '/home/morris/uvm-1.2/src/tlm2/uvm_tlm2.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/tlm2/uvm_tlm2_sockets.svh'.
+Back to file '/home/morris/uvm-1.2/src/tlm2/uvm_tlm2.svh'.
+Back to file '/home/morris/uvm-1.2/src/uvm_pkg.sv'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/uvm_reg_item.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/uvm_reg_adapter.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/uvm_reg_predictor.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/uvm_reg_sequence.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/uvm_reg_cbs.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/uvm_reg_backdoor.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/uvm_reg_field.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/uvm_vreg_field.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/uvm_reg.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/uvm_reg_indirect.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/uvm_reg_fifo.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/uvm_reg_file.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/uvm_mem_mam.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/uvm_vreg.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/uvm_mem.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/uvm_reg_map.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/uvm_reg_block.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/sequences/uvm_reg_hw_reset_seq.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/sequences/uvm_reg_bit_bash_seq.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/sequences/uvm_mem_walk_seq.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/sequences/uvm_mem_access_seq.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/sequences/uvm_reg_access_seq.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/sequences/uvm_reg_mem_shared_access_seq.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/sequences/uvm_reg_mem_built_in_seq.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/home/morris/uvm-1.2/src/reg/sequences/uvm_reg_mem_hdl_paths_seq.svh'.
+Back to file '/home/morris/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Back to file '/home/morris/uvm-1.2/src/uvm_pkg.sv'.
+Back to file '/home/morris/uvm-1.2/src/uvm.sv'.
+Parsing design file 'top.sv'
+Parsing included file 'dut/vend.sv'.
+Back to file 'top.sv'.
+Parsing included file 'types.sv'.
+Back to file 'top.sv'.
+Parsing included file 'seq_item.sv'.
+Back to file 'top.sv'.
+Parsing included file 'sequencer.sv'.
+Back to file 'top.sv'.
+Parsing included file 'driver.sv'.
+Back to file 'top.sv'.
+Parsing included file 'monitor.sv'.
+Back to file 'top.sv'.
+Parsing included file 'scoreboard.sv'.
+Back to file 'top.sv'.
+Parsing included file 'env.sv'.
+Back to file 'top.sv'.
+Parsing included file 'sequence.sv'.
+Back to file 'top.sv'.
+Parsing included file 'test.sv'.
+Back to file 'top.sv'.
+Top Level Modules:
+       top
+TimeScale is 1 ns / 10 ps
+Notice: Ports coerced to inout, use -notice for details
+Starting vcs inline pass...
+
+5 modules and 0 UDP read.
+recompiling package vcs_paramclassrepository
+recompiling package _vcs_DPI_package
+recompiling package uvm_pkg
+recompiling module Vend_interface
+recompiling module top
+All of 5 modules done
+rm -f _cuarc*.so _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
+g++ -w  -pipe -m32 -DVCS -O -I/apps/synopsys/VCS_current/vcs/R-2020.12/include    -c /home/morris/uvm-1.2/src/dpi/uvm_dpi.cc
+if [ -x ../simv ]; then chmod a-x ../simv; fi
+g++  -o ../simv      -m32 -m32 -rdynamic  -Wl,-rpath='$ORIGIN'/simv.daidir -Wl,-rpath=./simv.daidir -Wl,-rpath=/apps/synopsys/VCS_current/vcs/R-2020.12/linux/lib -L/apps/synopsys/VCS_current/vcs/R-2020.12/linux/lib  -Wl,-rpath-link=./  uvm_dpi.o   objs/amcQw_d.o   _23005_archive_1.so  SIM_l.o      rmapats_mop.o rmapats.o rmar.o rmar_nd.o  rmar_llvm_0_1.o rmar_llvm_0_0.o           -lvirsim -lerrorinf -lsnpsmalloc -lvfs    -lvcsnew -lsimprofile -luclinative /apps/synopsys/VCS_current/vcs/R-2020.12/linux/lib/vcs_tls.o   -Wl,-whole-archive  -lvcsucli    -Wl,-no-whole-archive       ./../simv.daidir/vc_hdrs.o    /apps/synopsys/VCS_current/vcs/R-2020.12/linux/lib/vcs_save_restore_new.o /apps/synopsys/VCS_current/vcs/R-2020.12/linux/lib/ctype-stubs_32.a -ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+CPU time: 5.328 seconds to compile + .259 seconds to elab + .328 seconds to link
+Chronologic VCS simulator copyright 1991-2020
+Contains Synopsys proprietary information.
+Compiler version R-2020.12; Runtime version R-2020.12;  Oct  1 19:48 2022
+UVM_INFO /home/morris/uvm-1.2/src/base/uvm_root.svh(392) @ 0: reporter [UVM/RELNOTES] 
+----------------------------------------------------------------
+UVM-1.2
+(C) 2007-2014 Mentor Graphics Corporation
+(C) 2007-2014 Cadence Design Systems, Inc.
+(C) 2006-2014 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+(C) 2013-2014 NVIDIA Corporation
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO @ 0: reporter [RNTST] Running test VendTest...
+------------------------------------------------------------
+Bank Balance - Initial Balance [@t=0]
+	 IN_CART :          0
+	 TOTAL   :          0
+	 nickles   :          0
+	 dimes 	   :          0
+	 quarters  :          0
+------------------------------------------------------------
+
+
+
+
+>>>>>>>>>>>>>>>> Transaction STARTED <<<<<<<<<<<<<<<<
+
+
+--------------------------------------------------------------------------------
+Name                           Type         Size  Value                         
+--------------------------------------------------------------------------------
+vendData                       VendData     -     @734                          
+  extraCoins                   integral     10    'h0                           
+  coins                        array(Coin)  18    -                             
+    [0]                        Coin         32    DIME                          
+    [1]                        Coin         32    DIME                          
+    [2]                        Coin         32    QUARTER                       
+    [3]                        Coin         32    QUARTER                       
+    [4]                        Coin         32    QUARTER                       
+    ...                        ...          ...   ...                           
+    [13]                       Coin         32    DIME                          
+    [14]                       Coin         32    DIME                          
+    [15]                       Coin         32    DIME                          
+    [16]                       Coin         32    NICKEL                        
+    [17]                       Coin         32    QUARTER                       
+  begin_time                   time         64    20000                         
+  depth                        int          32    'd2                           
+  parent sequence (name)       string       3     seq                           
+  parent sequence (full name)  string       30    uvm_test_top.env.sequencer.seq
+  sequencer                    string       26    uvm_test_top.env.sequencer    
+--------------------------------------------------------------------------------
+Detected - Added Coin:    10 @t=20500
+Detected - Added Coin:    10 @t=72500
+Detected - Added Coin:    25 @t=124500
+Detected - Added Coin:    25 @t=176500
+Detected - Added Coin:    25 @t=228500
+Detected - Added Coin:    25 @t=280500
+Detected - Added Coin:    10 @t=332500
+Detected - Added Coin:     5 @t=384500
+Detected - Added Coin:     5 @t=436500
+Detected - Added Coin:     5 @t=488500
+Detected - Added Coin:    10 @t=540500
+Detected - Added Coin:     5 @t=592500
+Detected - Added Coin:     5 @t=644500
+Detected - Added Coin:    10 @t=696500
+Detected - Added Coin:    10 @t=748500
+Detected - Added Coin:    10 @t=800500
+Detected - Added Coin:     5 @t=852500
+Detected - Added Coin:    25 @t=904500
+------------------------------------------------------------
+Bank Balance - On Buy [@t=1006500]
+	 IN_CART :        225
+	 TOTAL   :        225
+	 nickles   :          6
+	 dimes 	   :          7
+	 quarters  :          5
+------------------------------------------------------------
+Detected - Buy Initiated for Amount: 225 @t=1006500
+Detected - Amount Added for this Buy: 225 @t=1006500
+Expected - Should ACCEPT buy
+Expected - Should return amount 0
+Detected - Buy Accept detected @t=1007600
+------------------------------------------------------------
+Bank Balance - After Trans End [@t=1007600]
+	 IN_CART :        225
+	 TOTAL   :        225
+	 nickles   :          6
+	 dimes 	   :          7
+	 quarters  :          5
+------------------------------------------------------------
+
+
+<<<<<<<<<<<<<<<< Transaction COMPLETE >>>>>>>>>>>>>>>>
+
+
+
+
+
+
+
+
+>>>>>>>>>>>>>>>> Transaction STARTED <<<<<<<<<<<<<<<<
+
+
+--------------------------------------------------------------------------------
+Name                           Type         Size  Value                         
+--------------------------------------------------------------------------------
+vendData                       VendData     -     @764                          
+  extraCoins                   integral     10    'h0                           
+  coins                        array(Coin)  13    -                             
+    [0]                        Coin         32    DIME                          
+    [1]                        Coin         32    NICKEL                        
+    [2]                        Coin         32    NICKEL                        
+    [3]                        Coin         32    DIME                          
+    [4]                        Coin         32    QUARTER                       
+    ...                        ...          ...   ...                           
+    [8]                        Coin         32    NICKEL                        
+    [9]                        Coin         32    DIME                          
+    [10]                       Coin         32    QUARTER                       
+    [11]                       Coin         32    NICKEL                        
+    [12]                       Coin         32    QUARTER                       
+  begin_time                   time         64    3609500                       
+  depth                        int          32    'd2                           
+  parent sequence (name)       string       3     seq                           
+  parent sequence (full name)  string       30    uvm_test_top.env.sequencer.seq
+  sequencer                    string       26    uvm_test_top.env.sequencer    
+--------------------------------------------------------------------------------
+Detected - Added Coin:    10 @t=3610500
+Detected - Added Coin:     5 @t=3662500
+Detected - Added Coin:     5 @t=3714500
+Detected - Added Coin:    10 @t=3766500
+Detected - Added Coin:    25 @t=3818500
+Detected - Added Coin:     5 @t=3870500
+Detected - Added Coin:    25 @t=3922500
+Detected - Added Coin:    25 @t=3974500
+Detected - Added Coin:     5 @t=4026500
+Detected - Added Coin:    10 @t=4078500
+Detected - Added Coin:    25 @t=4130500
+Detected - Added Coin:     5 @t=4182500
+Detected - Added Coin:    25 @t=4234500
+------------------------------------------------------------
+Bank Balance - On Buy [@t=4336500]
+	 IN_CART :        180
+	 TOTAL   :        405
+	 nickles   :         11
+	 dimes 	   :         10
+	 quarters  :         10
+------------------------------------------------------------
+Detected - Buy Initiated for Amount: 180 @t=4336500
+Detected - Amount Added for this Buy: 180 @t=4336500
+Expected - Should ACCEPT buy
+Expected - Should return amount 0
+Detected - Buy Accept detected @t=4337600
+------------------------------------------------------------
+Bank Balance - After Trans End [@t=4337600]
+	 IN_CART :        180
+	 TOTAL   :        405
+	 nickles   :         11
+	 dimes 	   :         10
+	 quarters  :         10
+------------------------------------------------------------
+
+
+<<<<<<<<<<<<<<<< Transaction COMPLETE >>>>>>>>>>>>>>>>
+
+
+
+
+
+
+
+
+>>>>>>>>>>>>>>>> Transaction STARTED <<<<<<<<<<<<<<<<
+
+
+--------------------------------------------------------------------------------
+Name                           Type         Size  Value                         
+--------------------------------------------------------------------------------
+vendData                       VendData     -     @768                          
+  extraCoins                   integral     10    'hf                           
+  coins                        array(Coin)  11    -                             
+    [0]                        Coin         32    QUARTER                       
+    [1]                        Coin         32    QUARTER                       
+    [2]                        Coin         32    DIME                          
+    [3]                        Coin         32    QUARTER                       
+    [4]                        Coin         32    QUARTER                       
+    ...                        ...          ...   ...                           
+    [6]                        Coin         32    NICKEL                        
+    [7]                        Coin         32    DIME                          
+    [8]                        Coin         32    NICKEL                        
+    [9]                        Coin         32    DIME                          
+    [10]                       Coin         32    QUARTER                       
+  begin_time                   time         64    6939500                       
+  depth                        int          32    'd2                           
+  parent sequence (name)       string       3     seq                           
+  parent sequence (full name)  string       30    uvm_test_top.env.sequencer.seq
+  sequencer                    string       26    uvm_test_top.env.sequencer    
+--------------------------------------------------------------------------------
+Detected - Added Coin:    25 @t=6940500
+Detected - Added Coin:    25 @t=6992500
+Detected - Added Coin:    10 @t=7044500
+Detected - Added Coin:    25 @t=7096500
+Detected - Added Coin:    25 @t=7148500
+Detected - Added Coin:     5 @t=7200500
+Detected - Added Coin:     5 @t=7252500
+Detected - Added Coin:    10 @t=7304500
+Detected - Added Coin:     5 @t=7356500
+Detected - Added Coin:    10 @t=7408500
+Detected - Added Coin:    25 @t=7460500
+------------------------------------------------------------
+Bank Balance - On Buy [@t=7562500]
+	 IN_CART :        170
+	 TOTAL   :        575
+	 nickles   :         14
+	 dimes 	   :         13
+	 quarters  :         15
+------------------------------------------------------------
+Detected - Buy Initiated for Amount: 155 @t=7562500
+Detected - Amount Added for this Buy: 170 @t=7562500
+Expected - Should ACCEPT buy
+Expected - Should return amount 15
+Detected - Buy Accept detected @t=7563600
+Detected - Returned Coin: 10 (remaining-return: 5, remaining 10's: 12) [valid:1] @t=7675600
+Detected - Returned Coin: 5 (remaining-return: 0, remaining 5's: 13) [valid:1] @t=10004600
+------------------------------------------------------------
+Bank Balance - After Trans End [@t=10004600]
+	 IN_CART :        155
+	 TOTAL   :        560
+	 nickles   :         13
+	 dimes 	   :         12
+	 quarters  :         15
+------------------------------------------------------------
+
+
+<<<<<<<<<<<<<<<< Transaction COMPLETE >>>>>>>>>>>>>>>>
+
+
+
+
+
+
+
+
+>>>>>>>>>>>>>>>> Transaction STARTED <<<<<<<<<<<<<<<<
+
+
+--------------------------------------------------------------------------------
+Name                           Type         Size  Value                         
+--------------------------------------------------------------------------------
+vendData                       VendData     -     @772                          
+  extraCoins                   integral     10    'h1e                          
+  coins                        array(Coin)  20    -                             
+    [0]                        Coin         32    QUARTER                       
+    [1]                        Coin         32    NICKEL                        
+    [2]                        Coin         32    NICKEL                        
+    [3]                        Coin         32    DIME                          
+    [4]                        Coin         32    QUARTER                       
+    ...                        ...          ...   ...                           
+    [15]                       Coin         32    QUARTER                       
+    [16]                       Coin         32    NICKEL                        
+    [17]                       Coin         32    DIME                          
+    [18]                       Coin         32    NICKEL                        
+    [19]                       Coin         32    NICKEL                        
+  begin_time                   time         64    12554500                      
+  depth                        int          32    'd2                           
+  parent sequence (name)       string       3     seq                           
+  parent sequence (full name)  string       30    uvm_test_top.env.sequencer.seq
+  sequencer                    string       26    uvm_test_top.env.sequencer    
+--------------------------------------------------------------------------------
+Detected - Added Coin:    25 @t=12555500
+Detected - Added Coin:     5 @t=12607500
+Detected - Added Coin:     5 @t=12659500
+Detected - Added Coin:    10 @t=12711500
+Detected - Added Coin:    25 @t=12763500
+Detected - Added Coin:    10 @t=12815500
+Detected - Added Coin:    10 @t=12867500
+Detected - Added Coin:    25 @t=12919500
+Detected - Added Coin:     5 @t=12971500
+Detected - Added Coin:    10 @t=13023500
+Detected - Added Coin:    10 @t=13075500
+Detected - Added Coin:    25 @t=13127500
+Detected - Added Coin:    10 @t=13179500
+Detected - Added Coin:    10 @t=13231500
+Detected - Added Coin:     5 @t=13283500
+Detected - Added Coin:    25 @t=13335500
+Detected - Added Coin:     5 @t=13387500
+Detected - Added Coin:    10 @t=13439500
+Detected - Added Coin:     5 @t=13491500
+Detected - Added Coin:     5 @t=13543500
+------------------------------------------------------------
+Bank Balance - On Buy [@t=13645500]
+	 IN_CART :        240
+	 TOTAL   :        800
+	 nickles   :         20
+	 dimes 	   :         20
+	 quarters  :         20
+------------------------------------------------------------
+Detected - Buy Initiated for Amount: 210 @t=13645500
+Detected - Amount Added for this Buy: 240 @t=13645500
+Expected - Should ACCEPT buy
+Expected - Should return amount 30
+Detected - Buy Accept detected @t=13646600
+Detected - Returned Coin: 25 (remaining-return: 5, remaining 25's: 19) [valid:1] @t=13754600
+Detected - Returned Coin: 5 (remaining-return: 0, remaining 5's: 19) [valid:1] @t=15949600
+------------------------------------------------------------
+Bank Balance - After Trans End [@t=15949600]
+	 IN_CART :        210
+	 TOTAL   :        770
+	 nickles   :         19
+	 dimes 	   :         20
+	 quarters  :         19
+------------------------------------------------------------
+
+
+<<<<<<<<<<<<<<<< Transaction COMPLETE >>>>>>>>>>>>>>>>
+
+
+
+
+
+
+
+
+>>>>>>>>>>>>>>>> Transaction STARTED <<<<<<<<<<<<<<<<
+
+
+--------------------------------------------------------------------------------
+Name                           Type         Size  Value                         
+--------------------------------------------------------------------------------
+vendData                       VendData     -     @776                          
+  extraCoins                   integral     10    'h3c9                         
+  coins                        array(Coin)  11    -                             
+    [0]                        Coin         32    QUARTER                       
+    [1]                        Coin         32    DIME                          
+    [2]                        Coin         32    NICKEL                        
+    [3]                        Coin         32    NICKEL                        
+    [4]                        Coin         32    NICKEL                        
+    ...                        ...          ...   ...                           
+    [6]                        Coin         32    DIME                          
+    [7]                        Coin         32    QUARTER                       
+    [8]                        Coin         32    DIME                          
+    [9]                        Coin         32    NICKEL                        
+    [10]                       Coin         32    NICKEL                        
+  begin_time                   time         64    18499500                      
+  depth                        int          32    'd2                           
+  parent sequence (name)       string       3     seq                           
+  parent sequence (full name)  string       30    uvm_test_top.env.sequencer.seq
+  sequencer                    string       26    uvm_test_top.env.sequencer    
+--------------------------------------------------------------------------------
+Detected - Added Coin:    25 @t=18500500
+Detected - Added Coin:    10 @t=18552500
+Detected - Added Coin:     5 @t=18604500
+Detected - Added Coin:     5 @t=18656500
+Detected - Added Coin:     5 @t=18708500
+Detected - Added Coin:    10 @t=18760500
+Detected - Added Coin:    10 @t=18812500
+Detected - Added Coin:    25 @t=18864500
+Detected - Added Coin:    10 @t=18916500
+Detected - Added Coin:     5 @t=18968500
+Detected - Added Coin:     5 @t=19020500
+------------------------------------------------------------
+Bank Balance - On Buy [@t=19122500]
+	 IN_CART :        115
+	 TOTAL   :        885
+	 nickles   :         24
+	 dimes 	   :         24
+	 quarters  :         21
+------------------------------------------------------------
+Detected - Buy Initiated for Amount: 170 @t=19122500
+Detected - Amount Added for this Buy: 115 @t=19122500
+Expected - Should DECLINE buy
+Expected - Should return amount 115
+Detected - Returned Coin: 25 (remaining-return: 90, remaining 25's: 20) [valid:1] @t=19176600
+Detected - Returned Coin: 25 (remaining-return: 65, remaining 25's: 19) [valid:1] @t=21325600
+Detected - Returned Coin: 25 (remaining-return: 40, remaining 25's: 18) [valid:1] @t=23462600
+Detected - Returned Coin: 25 (remaining-return: 15, remaining 25's: 17) [valid:1] @t=25608600
+Detected - Returned Coin: 10 (remaining-return: 5, remaining 10's: 23) [valid:1] @t=27831600
+Detected - Returned Coin: 5 (remaining-return: 0, remaining 5's: 23) [valid:1] @t=29997600
+------------------------------------------------------------
+Bank Balance - After Trans End [@t=29997600]
+	 IN_CART :          0
+	 TOTAL   :        770
+	 nickles   :         23
+	 dimes 	   :         23
+	 quarters  :         17
+------------------------------------------------------------
+
+
+<<<<<<<<<<<<<<<< Transaction COMPLETE >>>>>>>>>>>>>>>>
+
+
+
+
+
+
+
+
+>>>>>>>>>>>>>>>> Transaction STARTED <<<<<<<<<<<<<<<<
+
+
+--------------------------------------------------------------------------------
+Name                           Type         Size  Value                         
+--------------------------------------------------------------------------------
+vendData                       VendData     -     @780                          
+  extraCoins                   integral     10    'h3b5                         
+  coins                        array(Coin)  14    -                             
+    [0]                        Coin         32    DIME                          
+    [1]                        Coin         32    DIME                          
+    [2]                        Coin         32    QUARTER                       
+    [3]                        Coin         32    DIME                          
+    [4]                        Coin         32    QUARTER                       
+    ...                        ...          ...   ...                           
+    [9]                        Coin         32    NICKEL                        
+    [10]                       Coin         32    DIME                          
+    [11]                       Coin         32    QUARTER                       
+    [12]                       Coin         32    DIME                          
+    [13]                       Coin         32    DIME                          
+  begin_time                   time         64    32547500                      
+  depth                        int          32    'd2                           
+  parent sequence (name)       string       3     seq                           
+  parent sequence (full name)  string       30    uvm_test_top.env.sequencer.seq
+  sequencer                    string       26    uvm_test_top.env.sequencer    
+--------------------------------------------------------------------------------
+Detected - Added Coin:    10 @t=32548500
+Detected - Added Coin:    10 @t=32600500
+Detected - Added Coin:    25 @t=32652500
+Detected - Added Coin:    10 @t=32704500
+Detected - Added Coin:    25 @t=32756500
+Detected - Added Coin:    25 @t=32808500
+Detected - Added Coin:    25 @t=32860500
+Detected - Added Coin:    25 @t=32912500
+Detected - Added Coin:    10 @t=32964500
+Detected - Added Coin:     5 @t=33016500
+Detected - Added Coin:    10 @t=33068500
+Detected - Added Coin:    25 @t=33120500
+Detected - Added Coin:    10 @t=33172500
+Detected - Added Coin:    10 @t=33224500
+------------------------------------------------------------
+Bank Balance - On Buy [@t=33326500]
+	 IN_CART :        225
+	 TOTAL   :        995
+	 nickles   :         24
+	 dimes 	   :         30
+	 quarters  :         23
+------------------------------------------------------------
+Detected - Buy Initiated for Amount: 300 @t=33326500
+Detected - Amount Added for this Buy: 225 @t=33326500
+Expected - Should DECLINE buy
+Expected - Should return amount 225
+Detected - Returned Coin: 25 (remaining-return: 200, remaining 25's: 22) [valid:1] @t=33380600
+Detected - Returned Coin: 25 (remaining-return: 175, remaining 25's: 21) [valid:1] @t=35448600
+Detected - Returned Coin: 25 (remaining-return: 150, remaining 25's: 20) [valid:1] @t=37715600
+Detected - Returned Coin: 25 (remaining-return: 125, remaining 25's: 19) [valid:1] @t=39784600
+Detected - Returned Coin: 25 (remaining-return: 100, remaining 25's: 18) [valid:1] @t=42025600
+Detected - Returned Coin: 25 (remaining-return: 75, remaining 25's: 17) [valid:1] @t=44224600
+Detected - Returned Coin: 25 (remaining-return: 50, remaining 25's: 16) [valid:1] @t=46323600
+Detected - Returned Coin: 25 (remaining-return: 25, remaining 25's: 15) [valid:1] @t=48599600
+Detected - Returned Coin: 25 (remaining-return: 0, remaining 25's: 14) [valid:1] @t=50780600
+------------------------------------------------------------
+Bank Balance - After Trans End [@t=50780600]
+	 IN_CART :          0
+	 TOTAL   :        770
+	 nickles   :         24
+	 dimes 	   :         30
+	 quarters  :         14
+------------------------------------------------------------
+
+
+<<<<<<<<<<<<<<<< Transaction COMPLETE >>>>>>>>>>>>>>>>
+
+
+
+
+UVM_INFO /home/morris/uvm-1.2/src/base/uvm_objection.svh(1270) @ 78330500: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO /home/morris/uvm-1.2/src/base/uvm_report_server.svh(847) @ 78330500: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :    3
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[RNTST]     1
+[TEST_DONE]     1
+[UVM/RELNOTES]     1
+
+$finish called from file "/home/morris/uvm-1.2/src/base/uvm_root.svh", line 517.
+$finish at simulation time             78330500
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 783305000 ps
+CPU Time:      0.870 seconds;       Data structure size:   0.2Mb
+Sat Oct  1 19:48:04 2022
